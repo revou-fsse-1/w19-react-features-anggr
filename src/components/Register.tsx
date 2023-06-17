@@ -47,9 +47,7 @@ const Register: React.FC = () => {
       {errors.password && <p>{errors.password.message}</p>}
 
       <input type="submit" value="Register" />
-      <p> template</p>
-      <p> email: okky@mail.com </p>
-      <p> password": okkyokky </p>
+
     </form>
   );
 };
