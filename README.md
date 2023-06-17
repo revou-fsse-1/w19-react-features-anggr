@@ -3,27 +3,16 @@
 https://w19-react-features-anggr.vercel.app/
 
 
-
-
-
-
-
-
-
 # React Page
 
-This is my assignment for Week 18 My React Page
+This is my assignment for Week 19 My React features
 
 ## Table of Content
 
 - [About the Project](#about-the-project)
-
   - [Links](#Links)
-
 - [Our process](#Our-process)
-
   - [Tech Stack](#tech-stack)
-
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
