@@ -36,7 +36,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <div className="col">
       <div className="card h-100">
         <img
-          src="/src/assets/placeholder.png"
+          src="https://res.cloudinary.com/djudfrj8s/image/upload/v1686967990/w19/placeholder_nsieyl.png"
           className="card-img-top"
           alt="image"
         />
