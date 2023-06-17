@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { registerUser, RegisterData } from "../api";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const schema = yup.object().shape({
   name: yup.string().required(),
@@ -125,9 +126,9 @@ const Register: React.FC = () => {
                       </a>
                       <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
                         Already have an account?
-                        <a href="/login" style={{ color: "#393f81" }}>
-                          Sign in
-                        </a>
+                        <Link to="/login" style={{ color: "#393f81" }}>
+                          Login Here
+                        </Link>
                       </p>
                       <a href="#!" className="small text-muted">
                         Terms of use.

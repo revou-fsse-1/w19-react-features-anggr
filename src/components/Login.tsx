@@ -8,6 +8,7 @@ import { useAuthContext } from "../context/AuthContext";
 import jwt_decode from "jwt-decode";
 import { DecodedJwt } from "../context/AuthContext";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 const schema = yup.object().shape({
   email: yup.string().required().email(),
@@ -117,9 +118,9 @@ const Login: React.FC = () => {
                       </a>
                       <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
                         Don't have an account?
-                        <a href="/register" style={{ color: "#393f81" }}>
-                          Register here
-                        </a>
+                        <Link to="/register" style={{ color: "#393f81" }}>
+                          Register Here
+                        </Link>
                       </p>
                       <a href="#!" className="small text-muted">
                         Terms of use.
